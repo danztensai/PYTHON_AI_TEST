@@ -2,6 +2,14 @@
 
 FastAPI + SQLite service that accepts user-submitted task strategies, runs them daily at a configured `HH:MM`, and enforces per-user daily quotas.
 
+## Documentation
+
+| Doc | Purpose |
+|-----|---------|
+| [SPEC.md](SPEC.md) | Product & technical specification (requirements, data model, API contract, execution flow) |
+| [DEVELOPMENT.md](DEVELOPMENT.md) | Local/Docker setup, project layout, extending, testing, debugging |
+| [AGENTS.md](AGENTS.md) | Instructions for AI coding agents (constraints, ownership map, how-tos) |
+
 ## Setup
 
 ```bash
