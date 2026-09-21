@@ -2,6 +2,8 @@
 
 ## 1. Purpose / problem statement
 
+See [CONTEXT.md](CONTEXT.md) for the original script, problem analysis, and solution summary.
+
 This project is a **refactor of a messy in-memory script** (`legacy/original_runner.py`) into a modular FastAPI backend that:
 
 1. **Receives** user-submitted task strategies over HTTP.

@@ -1,6 +1,6 @@
 # DEVELOPMENT.md — How to use & continue development
 
-Companion to [README.md](README.md) (quick start), [SPEC.md](SPEC.md) (full contract), and [AGENTS.md](AGENTS.md) (AI agent rules).
+Companion to [CONTEXT.md](CONTEXT.md) (origin story / problem & solution), [README.md](README.md) (quick start), [SPEC.md](SPEC.md) (full contract), and [AGENTS.md](AGENTS.md) (AI agent rules).
 
 ## Local setup
 

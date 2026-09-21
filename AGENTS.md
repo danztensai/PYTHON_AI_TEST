@@ -2,6 +2,8 @@
 
 Paste or forward this file (plus `SPEC.md` / `DEVELOPMENT.md` as needed) into Cursor, Claude, Codex, or similar when continuing work on this repo.
 
+**Read first:** read [CONTEXT.md](CONTEXT.md) before changing architecture so you preserve the original behavioral contract (seed data, quota outcomes, messaging style vs the legacy runner).
+
 ## Project one-liner
 
 **Task Strategy Backend** — FastAPI + SQLite service that stores user task strategies, runs them daily at `HH:MM`, and enforces per-user daily quotas.
@@ -10,6 +12,7 @@ Paste or forward this file (plus `SPEC.md` / `DEVELOPMENT.md` as needed) into Cu
 
 | Doc | Audience | Contents |
 |-----|----------|----------|
+| [CONTEXT.md](CONTEXT.md) | Humans + agents | **Read first** — origin story, original script, problem analysis, solution map |
 | [README.md](README.md) | Humans (entry) | Quick setup, run, API summary, Docker, tests |
 | [SPEC.md](SPEC.md) | Humans + agents | Product/tech spec, data model, API contract, flows |
 | [DEVELOPMENT.md](DEVELOPMENT.md) | Humans + agents | Setup, workflow, extending, debugging, future work |
